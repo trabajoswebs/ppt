@@ -3,7 +3,7 @@ import java.util.Random;
 public class MoveWords{
 
     public static final int EMPATE = 0;
-    public static final int GANA = 1;
+    public static final int GANA   = 1;
     public static final int PIERDE = 2;
 
     private static final String[] validMoves = {"TIJERAS", "PAPEL", "PIEDRA"};
@@ -12,7 +12,7 @@ public class MoveWords{
     private Random rnd;
     
     public MoveWords(){
-    	rnd = new Random();
+    	rnd = new Random(); 
     }
     
     public boolean isValidMoveCommand(String value){
